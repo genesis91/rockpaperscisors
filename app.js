@@ -1,4 +1,4 @@
-/*let userScore = 0
+let userScore = 0
 let computerScore = 0 
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("computer-score");
@@ -79,23 +79,9 @@ function main() {
     })
 }
 
-main();*/
+main();
 
-function duplicateEncode(word){ 
-   
-    let wordArray = word.split('')
-    
-    for(i = 0; i <= wordArray.length; i++)
-        for(j = i + 1; j <= wordArray.length ; j++)
-     if(i==1) {
-        console.log('(')
-    } else {
-        console.log(')')
-    }
-        
-}
 
-duplicateEncode('sadasdasdasdasd');
 
 
 
